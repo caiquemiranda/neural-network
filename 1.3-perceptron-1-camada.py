@@ -3,13 +3,13 @@ import numpy as np
 
 # definição das variáveis de entrada, saidas, pesos e taxa de aprendizagem
 
-#entradas = np.array([[0,0],[0,1], [1,0], [1,1]])
-#saidas = np.array([0,0,0,1])
+entradas = np.array([[0,0],[0,1], [1,0], [1,1]])
+saidas = np.array([0,0,0,1])
 #entradas = np.array([[0,0],[0,1], [1,0], [1,1]])
 #saidas = np.array([0,1,1,1])
 
-entradas = np.array([[0,0],[0,1], [1,0], [1,1]])
-saidas = np.array([0,1,1,0])
+#entradas = np.array([[0,0],[0,1], [1,0], [1,1]])
+#saidas = np.array([0,1,1,0])
 pesos = np.array([0.0, 0.0])
 taxaAprendizagem = 0.1
 
